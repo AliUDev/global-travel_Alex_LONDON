@@ -1,0 +1,122 @@
+const Products = [
+    {
+        name: "Dodi Pat Sar Lake",
+        placeImage: '/pics/dodi-patser.jpg',
+        guideImage: "/pics/guide2.jpg",
+        guideName: "Angelina Rosee",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod dolor maiores ipsa fuga tempora provident soluta magnam quae nesciunt repellendus itaque sunt voluptatibus numquam autem, nam unde, optio officia. Ullam, impedit sunt.",
+        bookingNote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod soluta magnam quae nesciunt repellendus itaque sunt voluptatibus, officia.",
+        location: "Pakistan",
+        duration: "25",
+        maxPeople: "30",
+        perCouplePrice:"55000",
+        perPersonPrice:"25000"
+    },
+    {
+        name: "Fairy Meadows",
+        placeImage: "/pics/Nanga-Parbat1.jpg",
+        guideImage: "/pics/guide3.jpg",
+        guideName: "Angelina Rosee",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod dolor maiores ipsa fuga tempora provident soluta magnam quae nesciunt repellendus itaque sunt voluptatibus numquam autem, nam unde, optio officia. Ullam, impedit sunt.",
+        bookingNote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod soluta magnam quae nesciunt repellendus itaque sunt voluptatibus, officia.",
+        location: "Pakistan",
+        duration: "30",
+        maxPeople: "20",
+        perCouplePrice:"235000",
+        perPersonPrice:"120000"
+    },
+    {
+
+        name: "Hiking Mountain",
+        placeImage: "/pics/grandfather-mountain.jpg",
+        guideImage: "/pics/guide5.jpg",
+        guideName: "Angelina Rosee",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod dolor maiores ipsa fuga tempora provident soluta magnam quae nesciunt repellendus itaque sunt voluptatibus numquam autem, nam unde, optio officia. Ullam, impedit sunt.",
+        bookingNote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod soluta magnam quae nesciunt repellendus itaque sunt voluptatibus, officia.",
+        location: "Pakistan",
+        duration: "20",
+        maxPeople: "30",
+        perCouplePrice:"85000",
+        perPersonPrice:"35000"
+    },
+    {
+        name: "Explore Fuji Japan",
+        placeImage: "/pics/mountain-fuji.jpg",
+        guideImage: "/pics/guide6.jpg",
+        guideName: "Angelina Rosee",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod dolor maiores ipsa fuga tempora provident soluta magnam quae nesciunt repellendus itaque sunt voluptatibus numquam autem, nam unde, optio officia. Ullam, impedit sunt.",
+        bookingNote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod soluta magnam quae nesciunt repellendus itaque sunt voluptatibus, officia.",
+        location: "Japan",
+        duration: "10",
+        maxPeople: "15",
+        perCouplePrice:"50000",
+        perPersonPrice:"15000"
+    },
+    {
+        name: "Hiking Bromo",
+        placeImage: "/pics/bromo-volcano.jpg",
+        guideImage: "/pics/guide7.jpg",
+        guideName: "Angelina Rosee",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod dolor maiores ipsa fuga tempora provident soluta magnam quae nesciunt repellendus itaque sunt voluptatibus numquam autem, nam unde, optio officia. Ullam, impedit sunt.",
+        bookingNote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod soluta magnam quae nesciunt repellendus itaque sunt voluptatibus, officia.",
+        location: "Pakistan",
+        duration: "15",
+        maxPeople: "10",
+        perCouplePrice:"25000",
+        perPersonPrice:"10000"
+    },
+    {
+        name: "Romantic Journey",
+        placeImage: "/pics/cathedral-in-paris.jpg",
+        guideImage: "/pics/guide5.jpg",
+        guideName: "Angelina Rosee",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod dolor maiores ipsa fuga tempora provident soluta magnam quae nesciunt repellendus itaque sunt voluptatibus numquam autem, nam unde, optio officia. Ullam, impedit sunt.",
+        bookingNote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod soluta magnam quae nesciunt repellendus itaque sunt voluptatibus, officia.",
+        location: "France",
+        duration: "7",
+        maxPeople: "10",
+        perCouplePrice:"18000",
+        perPersonPrice:"6000"
+    },
+    {
+        name: "Mexican Treasure",
+        placeImage: "/pics/mexican-treasure.jpg",
+        guideImage: "/pics/guide8.jpg",
+        guideName: "Angelina Rosee",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod dolor maiores ipsa fuga tempora provident soluta magnam quae nesciunt repellendus itaque sunt voluptatibus numquam autem, nam unde, optio officia. Ullam, impedit sunt.",
+        bookingNote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod soluta magnam quae nesciunt repellendus itaque sunt voluptatibus, officia.",
+        location: "Mexico",
+        duration: "12",
+        maxPeople: "15",
+        perCouplePrice:"55000",
+        perPersonPrice:"25000"
+    },
+    {
+        name: "Expedition Everest",
+        placeImage: "/pics/mount-everest.jpg",
+        guideImage: "/pics/guide6.jpg",
+        guideName: "Angelina Rosee",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod dolor maiores ipsa fuga tempora provident soluta magnam quae nesciunt repellendus itaque sunt voluptatibus numquam autem, nam unde, optio officia. Ullam, impedit sunt.",
+        bookingNote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod soluta magnam quae nesciunt repellendus itaque sunt voluptatibus, officia.",
+        location: "Napal",
+        duration: "35",
+        maxPeople: "6",
+        perCouplePrice:"75000",
+        perPersonPrice:"35000"
+    },
+    {
+        name: "Climbing Switzerland Rock",
+        placeImage: "/pics/switzerland-swiss-alps.jpg",
+        guideImage: "/pics/guide4.jpg",
+        guideName: "Angelina Rosee",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod dolor maiores ipsa fuga tempora provident soluta magnam quae nesciunt repellendus itaque sunt voluptatibus numquam autem, nam unde, optio officia. Ullam, impedit sunt.",
+        bookingNote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. uam molestiae illum laborum voluptatum! Quod soluta magnam quae nesciunt repellendus itaque sunt voluptatibus, officia.",
+        location: "Switzerland",
+        duration: "6",
+        maxPeople: "6",
+        perCouplePrice:"15000",
+        perPersonPrice:"5000"
+    },
+]
+
+module.exports = Products;
